@@ -1,0 +1,200 @@
+
+.head {
+  height: 80px;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+}
+.head .logo {
+  position: absolute;
+  display: flex;
+  width: 100px;
+  height: 70px;
+  background-image: url(../png/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 5px;
+  left: 100px;
+}
+.head .logo a {
+  
+  width: 100px;
+  height: 70px;
+  background-image: url(../png/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+}
+.head ul {   
+  display: flex; 
+  width: 500px;
+  margin-left: 610px;
+}
+.head ul li
+{
+  width: 300px;
+}
+.head ul li a {
+    line-height: 80px;
+    font-size: 18px;
+    height: 30px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    padding: 0 auto;
+    margin: 0 20px;
+}
+.head ul li a:hover {
+  border-bottom: 4px solid #ff0000;
+  font-size: 20px;
+}
+video {
+  width: 1684px;
+  height: 750px;
+  object-fit: cover;
+}
+.video {
+  position: relative;
+}
+.video .pp {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 700px;
+  top: 0;
+}
+.start {
+  display: flex;
+  margin: 30px auto;
+  height: 550px;
+  width: 1500px;
+  background-color: rgb(29, 28, 28);
+  
+}
+.start .apexpic {
+  height: 550px;
+  width: 5000px;
+  border-right: 6px solid red;
+  background-image: url(../png/poster.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.start .story {
+  margin: 20px;
+  color: #ffffff;
+  font-size: 19px;
+  line-height: 60px;
+  padding-top: 50px;
+}
+
+.body {
+
+  width: 1100px;
+  margin: 0 300px;
+  color: #000000;
+}
+.body .line {
+  margin-top: 40px;
+  margin-left: 90px;
+}
+
+.jianjietitle,
+.maptitle{
+  font-size: 32px;
+  padding: 20px 0;
+}
+.body .names {
+  display: flex;
+  font-size: 22px;
+}
+.body .names ul {
+  display: flex;
+}
+.body .names ul li{
+  padding: 0 25px;
+}
+.body .names ul li:hover {
+  color: red;
+  cursor: pointer;
+}
+.legends {
+  height: 540px;
+  padding: 0 220px;
+  color: #fff;
+  background-image: url(../png/bg2.png);
+  background-size: contain;
+  display: flex;
+}
+.legends .thename {
+  width: 700px;
+  padding: 40px;
+  padding-top: 100px;
+  font-size: 45px;
+  text-align: center;
+}
+.legends .saying {
+  width: 700px;
+  color: #c9c9c9;
+  margin-top: 30px;
+  padding: 40px;
+  font-size: 18px;
+  text-align: center;
+}
+.legends .thepic {
+  width: 300px;
+  position: relative;
+  object-fit: contain;
+}
+.legends .thepic span {
+  position: absolute;
+  transform: scale(0.8);
+  top: -20%;
+  left: -60%;
+}
+.active {
+  font-weight: 700;
+}
+.body .map .mapname ul {
+  display: flex;
+  margin: 20px auto;
+}
+.body .map .mapname ul li {
+  margin-right: 50px;
+  font-size: 20px;
+}
+.body .map .mapname ul li:hover {
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
+}
+.body .map .mappic img{
+  height: 640px;
+  width: 1100px;
+  object-fit: cover;
+}
+.activemap {
+  font-weight: 700;
+}
+.bottom {
+  margin-top: 20px;
+  width: 1684px;
+  height: 100px;
+  padding: 20px 0;
+  background-color: #000;
+}
+.bottom a {
+  width: 200px;
+  display: block;
+  height: 40px;
+  margin: 30px auto;
+  border: 2px solid white;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+}
+.bottom a:hover {
+  margin: 20px auto;
+  width: 230px;
+  height: 60px;
+  line-height: 60px;
+}

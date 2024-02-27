@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+body {
+  background-image: url(../png/homepage.jpg);
+  background-size: contain;
+  width: 1684px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
